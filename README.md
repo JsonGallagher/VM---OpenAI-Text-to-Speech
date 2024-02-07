@@ -16,23 +16,42 @@ This project demonstrates how to use OpenAI's Text-to-Speech (TTS) capabilities 
 - [OpenAI API](https://openai.com/api/)
 - `requests` library for making HTTP requests in Python
 - `dotenv` library for loading environment variables
+- `venv` for creating isolated Python environments
 
 ## Setup and Installation
 
-1. **Clone the Repository**:
+1. **Clone the Repository:**
 
    ```bash
    git clone https://github.com/JsonGallagher/VM---OpenAI-Text-to-Speech
    cd VM---OpenAI-Text-to-Speech
    ```
 
-2. **Install Required Python Packages**:
+2. **Set Up a Virtual Environment (recommended):**
+
+For Windows:
+
+```bash
+Copy code
+python -m venv venv
+venv\Scripts\activate
+```
+
+For macOS and Linux:
+
+```bash
+Copy code
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. **Install Required Python Packages:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Environment Variables**:
+4. **Environment Variables**:
 
    - Create a `.env` file in the root directory.
    - Add your OpenAI API key:
@@ -41,7 +60,7 @@ This project demonstrates how to use OpenAI's Text-to-Speech (TTS) capabilities 
      OPENAI_API_KEY=your_openai_api_key_here
      ```
 
-4. **Running the Script**:
+5. **Running the Script**:
    - Simply execute the script to generate the voicemail MP3 file:
 
      ```bash
@@ -50,7 +69,7 @@ This project demonstrates how to use OpenAI's Text-to-Speech (TTS) capabilities 
 
 ## Project Structure
 
-- `script_name.py`: The main Python script that contains the logic for text-to-speech conversion.
+- `app.py`: The main Python script that contains the logic for text-to-speech conversion.
 - `.env`: A file to store environment variables securely (not included in the repository for security reasons).
 - `requirements.txt`: A file listing the project's dependencies for easy installation.
 
@@ -68,14 +87,6 @@ You can modify the `voicemail_text` variable in `script_name.py` to suit your ne
 
 Contributions to enhance the functionality or documentation of this project are welcome. Please feel free to submit a pull request or open an issue.
 
-## License
-
-Specify your project's license here, if applicable.
-
 ---
 
 This project is a demonstration of integrating OpenAI's Text-to-Speech API with Python and is intended for educational and demonstration purposes.
-
-```bash
-Remember to replace `script_name.py` with the actual name of your Python script file before adding this to your `README.md`. This markdown text provides a concise guide for your GitHub repository, detailing the project setup, features, and how to contribute.
-```
