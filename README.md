@@ -4,7 +4,9 @@
 
 This project demonstrates how to use OpenAI's Text-to-Speech (TTS) capabilities to generate a voicemail greeting. It utilizes the OpenAI API to convert text input into lifelike spoken audio, saved as an MP3 file. This example specifically generates a voicemail message for Jason Gallagher, showcasing the potential use case of enhancing user experience with AI-generated audio content.
 
-## 🔊 Example Output: <https://bit.ly/AI_VM_Greeting>
+## 🔊 Example Output:
+
+<https://bit.ly/AI_VM_Greeting>
 
 ## Features
 
