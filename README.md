@@ -28,8 +28,7 @@ This project demonstrates how to use OpenAI's Text-to-Speech (TTS) capabilities 
    ```
 
 2. **Set Up a Virtual Environment (recommended):**
-
-For Windows:
+**For Windows:**
 
 ```bash
 Copy code
@@ -37,13 +36,12 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-For macOS and Linux:
+**For macOS and Linux:**
 
 ```bash
 Copy code
 python3 -m venv venv
 source venv/bin/activate
-```
 
 3. **Install Required Python Packages:**
 
