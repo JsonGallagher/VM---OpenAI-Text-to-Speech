@@ -63,7 +63,7 @@ This project demonstrates how to use OpenAI's Text-to-Speech (TTS) capabilities 
    - Simply execute the script to generate the voicemail MP3 file:
 
      ```bash
-     python script_name.py
+     python app.py
      ```
 
 ## Project Structure
@@ -80,7 +80,7 @@ The script is designed to be easily customizable. Here's the default text used f
 voicemail_text = "Hello! You've reached the voicemail of Jason Gallagher. He is currently either on another call or unavailable. Please leave your name, number, and a brief message after the tone. For a quicker response, feel free to text this number. We appreciate your call and look forward to speaking with you soon. Thank you!"
 ```
 
-You can modify the `voicemail_text` variable in `script_name.py` to suit your needs.
+You can modify the `voicemail_text` variable in `app.py` to suit your needs.
 
 ## Contributing
 
